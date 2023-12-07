@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: grey;
+}
+
+#container {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#break-label, #session-label, #timer-label {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#break-length, #session-length, #time-left {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  background-color: lightcyan;
+  font-size: 16px;
+  margin: 0 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#beep {
+  display: none;
+}
